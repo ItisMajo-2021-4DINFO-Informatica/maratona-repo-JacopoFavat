@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="678" Width="800">
     <StackPanel>
-        <Label Content="inserisci nome atleta" Background="#FF60BEF3" FontWeight="Bold" FontSize="14" FontStyle="Italic" Margin="10"/>
+        <Label Content="inserisci nome atleta" Background="#8fbc8f" FontWeight="Bold" FontSize="14" FontStyle="Italic" Margin="10"/>
         <TextBox  x:Name="TxtNomeAtleta" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10" RenderTransformOrigin="0.496,-0.979"/>
-        <Label Content="inserisci la città di apprtenenza" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#FF72C2F0" Margin="10"/>
+        <Label Content="inserisci la città di apprtenenza" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#8fbc8f" Margin="10"/>
         <TextBox x:Name="TxtCittaAppartenenza" Text="" TextWrapping="Wrap" Width="799" Margin="10"/>
-        <Label Content="inserisci il tempo impiegato" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#FF65C2F7" Margin="10"/>
+        <Label Content="inserisci il tempo impiegato" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#8fbc8f" Margin="10"/>
         <TextBox x:Name="TxtTempo" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10"/>
-        <Label Content="inserisci la città in cui si è corsa la maratona" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#FF65C2F7" Margin="10"></Label>
+        <Label Content="inserisci la città in cui si è corsa la maratona" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#8fbc8f" Margin="10"></Label>
         <TextBox  x:Name="TxtCittaMaratona" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10"/>
             <StackPanel Orientation="Horizontal">
         <Button  x:Name="Btnsalva"  Margin="5 " Content="Salva" Click="BtnSalva_Click" FontSize="15" FontWeight="Bold" FontStyle="Italic" Background="#FF9CA8B2" Width="319"/>
