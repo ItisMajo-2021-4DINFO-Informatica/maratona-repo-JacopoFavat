@@ -35,19 +35,19 @@ namespace FavatGestioneDocumentiApp
         {
             {
                 //Leggiamo i dati dall'input//
-                string titolo = TxtNomeAtleta.Text;
+                string nomeatleta = TxtNomeAtleta.Text;
 
-                string sottotitolo = TxtCittaAppartenenza.Text;
+                string cittaappartenenza = TxtCittaAppartenenza.Text;
 
-                string paragrafo = TxtTempo.Text;
+                string tempo = TxtTempo.Text;
 
                 string citta = TxtCittaMaratona.Text;
 
                 //crea un nuovo documento
                 var documento = new Documento();
-                documento.NomeAtleta = titolo;
-                documento.CittaAppartenenza = sottotitolo;
-                documento.Tempo = paragrafo;
+                documento.NomeAtleta = nomeatleta;
+                documento.CittaAppartenenza = cittaappartenenza;
+                documento.Tempo = tempo;
                 documento.CittaMaratona = citta;
 
 
