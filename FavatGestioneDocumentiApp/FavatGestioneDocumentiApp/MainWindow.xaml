@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FavatGestioneDocumentiApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="678" Width="800">
+        Title="MainWindow" Height="908" Width="800">
     <StackPanel>
         <Label Content="inserisci nome atleta" Background="#8fbc8f" FontWeight="Bold" FontSize="14" FontStyle="Italic" Margin="10"/>
         <TextBox  x:Name="TxtNomeAtleta" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10" RenderTransformOrigin="0.496,-0.979"/>
@@ -15,10 +15,12 @@
         <TextBox x:Name="TxtTempo" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10"/>
         <Label Content="inserisci la città in cui si è corsa la maratona" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#8fbc8f" Margin="10"></Label>
         <TextBox  x:Name="TxtCittaMaratona" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10"/>
-            <StackPanel Orientation="Horizontal">
-        <Button  x:Name="Btnsalva"  Margin="5 " Content="Salva" Click="BtnSalva_Click" FontSize="15" FontWeight="Bold" FontStyle="Italic" Background="#FF9CA8B2" Width="319"/>
-            <Button x:Name="BtnVisualizza" Content="Visualizza" Background="#FFA2ABB2" Width="456" Height="23" Click="BtnVisualizza_Click" FontStyle="Italic" FontWeight="Bold" FontSize="14" RenderTransformOrigin="1.042,1.079"/>
+        <StackPanel Orientation="Horizontal">
+            <Button  x:Name="Btnsalva"  Margin="5 " Content="Salva dati" Click="BtnSalva_Click" FontSize="15" FontWeight="Bold" FontStyle="Italic" Background="#FF9CA8B2" Width="319"/>
+            <Button x:Name="BtnVisualizza" Content="Visualizza dati" Background="#FFA2ABB2" Width="456" Height="23" Click="BtnVisualizza_Click" FontStyle="Italic" FontWeight="Bold" FontSize="14" RenderTransformOrigin="1.042,1.079"/>
         </StackPanel>
         <DataGrid x:Name="DgElencoDocumenti" Height="249" RenderTransformOrigin="0.491,1.065" />
+        <Label Content="inserisci la città e il nome atleta per ottenere il tempo in minuti" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#8fbc8f" Margin="10"></Label>
+        <TextBox x:Name="TxtCerca" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10"/>
     </StackPanel>
 </Window>
