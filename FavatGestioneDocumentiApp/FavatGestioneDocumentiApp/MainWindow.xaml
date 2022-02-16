@@ -1,0 +1,24 @@
+﻿<Window x:Class="FavatGestioneDocumentiApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FavatGestioneDocumentiApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="678" Width="800">
+    <StackPanel>
+        <Label Content="inserisci nome atleta" Background="#FF60BEF3" FontWeight="Bold" FontSize="14" FontStyle="Italic" Margin="10"/>
+        <TextBox  x:Name="TxtNomeAtleta" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10" RenderTransformOrigin="0.496,-0.979"/>
+        <Label Content="inserisci la città di apprtenenza" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#FF72C2F0" Margin="10"/>
+        <TextBox x:Name="TxtCittaAppartenenza" Text="" TextWrapping="Wrap" Width="799" Margin="10"/>
+        <Label Content="inserisci il tempo impiegato" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#FF65C2F7" Margin="10"/>
+        <TextBox x:Name="TxtTempo" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10"/>
+        <Label Content="inserisci la città in cui si è corsa la maratona" FontWeight="Bold" FontSize="14" FontStyle="Italic" Background="#FF65C2F7" Margin="10"></Label>
+        <TextBox  x:Name="TxtCittaMaratona" Text="" TextWrapping="Wrap" Width="799" Background="White" Margin="10"/>
+            <StackPanel Orientation="Horizontal">
+        <Button  x:Name="Btnsalva"  Margin="5 " Content="Salva" Click="BtnSalva_Click" FontSize="15" FontWeight="Bold" FontStyle="Italic" Background="#FF9CA8B2" Width="319"/>
+            <Button x:Name="BtnVisualizza" Content="Visualizza" Background="#FFA2ABB2" Width="456" Height="23" Click="BtnVisualizza_Click" FontStyle="Italic" FontWeight="Bold" FontSize="14" RenderTransformOrigin="1.042,1.079"/>
+        </StackPanel>
+        <DataGrid x:Name="DgElencoDocumenti" Height="249" RenderTransformOrigin="0.491,1.065" />
+    </StackPanel>
+</Window>
